@@ -22,7 +22,7 @@ export const donorList =
         "name": "অ্যাড. মশিয়ার রহমান",
         "batch": "",
         "image": "./images/committee/mosiar.png",
-        "description": "অ্যাডভোকেট — জর্জকোর্ট, রংপুর"
+        "description": "আয়কর অ্যাডভাইজার, রংপুর"
     },
     {
         "name": "ড. মোঃ কবিরুজ্জামান",
