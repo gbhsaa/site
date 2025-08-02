@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/featherlight.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
 
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 	<script type="text/javascript" src="js/featherlight.min.js"></script>
 	<link rel="icon" href="images/favicon.png" type="image/x-icon">
 
@@ -19,7 +19,7 @@
 <body>
 	<header id="top">
 		<div class="wrapper">
-			<h1 class="logo"><a href="#"><img src="./images/logo.png" height="80px" width="80px"> </a></h1>
+			<h1 class="logo"><a href="./"><img src="./images/logo.png" height="80px" width="80px"> </a></h1>
 			<nav>
 				<ul id="navigation">
 					<li><a href="./">হোম</a></li>
@@ -99,44 +99,13 @@
 		<p class="subtitle">আমাদের আয়োজনের খন্ডচিত্র</p>
 
 		<ul class="portfolio-list" id="galleryList">
-			<li class="item">
-				<a href="images/project-1.jpg" data-featherlight="images/project-1.jpg" class="photo-overlay">
-					<img src="images/project-1-thumb.jpg" alt="" />
-				</a>
-			</li>
-			<li class="item">
-				<a href="images/project-2.jpg" data-featherlight="images/project-2.jpg" class="photo-overlay">
-					<img src="images/project-2-thumb.jpg" alt="" />
-				</a>
-			</li>
-			<li class="item">
-				<a href="images/project-3.jpg" data-featherlight="images/project-3.jpg" class="photo-overlay">
-					<img src="images/project-3-thumb.jpg" alt="" />
-				</a>
-			</li>
-			<li class="item">
-				<a href="images/project-4.jpg" data-featherlight="images/project-4.jpg" class="photo-overlay">
-					<img src="images/project-4-thumb.jpg" alt="" />
-				</a>
-			</li>
-			<li class="item">
-				<a href="images/project-5.jpg" data-featherlight="images/project-5.jpg" class="photo-overlay">
-					<img src="images/project-5-thumb.jpg" alt="" />
-				</a>
-			</li>
-			<li class="item">
-				<a href="images/project-6.jpg" data-featherlight="images/project-6.jpg" class="photo-overlay">
-					<img src="images/project-6-thumb.jpg" alt="" />
-				</a>
-			</li>
-			<div class="clear"></div>
 		</ul>
 	</section>
 
 
 	<footer>
 		<div class="wrapper">
-			<h1 class="logo"><a href="#"><img src="./images/logo-footer.png" height="80px" width="80px"> </a></h1>
+			<p class="logo"><a href="#"><img src="./images/logo-footer.png" height="80px" width="80px"> </a></p>
 			<div class="footer center">
 				<p class="copyright">কপিরাইট <span id="currentYear"></span> &copy; গুলাল বুদাই উচ্চ বিদ্যালয় অ্যালামনাই এসোসিয়েশন </p>
 			</div>
@@ -155,9 +124,7 @@
 	import { gallaryItems } from './config/gallery.js';
 
 	const fallbackImage = './images/default.png';
-	const clearDiv = document.createElement('div');
-	clearDiv.className = 'clear';
-
+	
 	// === Events ===
 	const eventContainer = document.getElementById('eventList');
 	eventContainer.innerHTML = '';
@@ -174,6 +141,8 @@
 		eventContainer.appendChild(li);
 	}
 
+	const clearDiv = document.createElement('div');
+	clearDiv.className = 'clear';
 	eventContainer.appendChild(clearDiv);
 
 	// === Committee ===
@@ -191,7 +160,9 @@
 		committeeContainer.appendChild(li);
 	}
 
-	committeeContainer.appendChild(clearDiv);
+	const clearDiv2 = document.createElement('div');
+	clearDiv2.className = 'clear';
+	committeeContainer.appendChild(clearDiv2);
 
 	const galleryContainer = document.getElementById('galleryList');
 	galleryContainer.innerHTML = '';
@@ -207,7 +178,9 @@
 		galleryContainer.appendChild(li);
 	}
 
-	galleryContainer.appendChild(clearDiv);
+	const clearDiv3 = document.createElement('div');
+	clearDiv3.className = 'clear';
+	galleryContainer.appendChild(clearDiv3);
 
 </script>
 <script type="text/javascript" src="js/common.js"></script>

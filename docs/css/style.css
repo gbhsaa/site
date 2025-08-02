@@ -551,7 +551,7 @@ ul.list-checkmarks li {
 
 ul.team-list {
 	width: 90%;
-	margin: 20px auto 60px;
+	margin: 100px auto 60px;
 }
 
 ul.team-list li {
@@ -1012,4 +1012,11 @@ footer a.social.google {
     height: 220px;
     width: 100%;
     object-fit: cover;
+}
+
+.align-center {
+	text-align: center;
+}
+.alumni-wrapper {
+	padding: 20px;
 }
