@@ -77,5 +77,16 @@ export const graduateStudentsList = [
         "image": "",
         "description": "EEE, Dhaka University of Engineering & Technology, Gazipur"
     },
+    {
+        "name": "Mohsena Khatun",
+        "batch": "2004",
+        "image": "",
+        "description": "Dhaka Medical College"
+    },
+    {
+        "name": "Md. Rafiqul Islam Sobuj",
+        "batch": "2005",
+        "image": "",
+        "description": "Dhaka University of Engineering & Technology, Gazipur"
+    },
 ]
- 
