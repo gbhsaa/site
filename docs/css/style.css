@@ -155,16 +155,11 @@ header#top {
 }
 
 h1.logo a {
-	display: inline-block;
-	float: left;
-	color: #444;
-	line-height: 2.25;
-	margin: 40px 0 0 40px;
-	/* text-indent: -4999px;
-	background: url(../images/logo.png) no-repeat;
-	margin: 40px 0 0 40px;
-	width: 56px;
-	height: 74px; */
+    display: inline-block;
+    float: left;
+    color: #444;
+    line-height: 2.25;
+    margin: 20px 0 0 0;
 }
 
 header#top nav {
@@ -934,7 +929,7 @@ footer .footer-left {
 
 footer p {
 	font-size: 17px;
-	margin: 5px;
+	margin: 10px;
 }
 
 footer p.copyright {
