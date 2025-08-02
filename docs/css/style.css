@@ -1015,3 +1015,18 @@ footer a.social.google {
 .alumni-wrapper {
 	padding: 20px;
 }
+p.donor-desc {
+    font-size: 14px;
+    padding: 10px;
+}
+ul.donor-list li {
+    display: inline-block;
+    float: left;
+    width: 23%;
+    background: #fff;
+    padding: 80px 0 20px 0;
+    margin: 0 1%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    min-height: 275px;
+}

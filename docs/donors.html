@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Donor List - Gulal Budai High School (GBHS) Alumni Association</title>
+	<meta name="title" content="Donor List - Gulal Budai High School (GBHS) Alumni Association" />
+	<meta name="keywords" content="Donor List, Gulal Budai High School, Alumni Association, GBHS, Gulal Budai High School Alumni, রংপুর, গুলাল বুদাই উচ্চ বিদ্যালয় অ্যালামনাই এসোসিয়েশন" />
+	<meta name="author" content="Md. Rakibul Islam" />
+	<meta name="description"
+		content="গুলাল বুদাই উচ্চ বিদ্যালয় অ্যালামনাই এসোসিয়েশন - স্মৃতির বন্ধনে, সম্মিলনের প্রত্যয়ে প্রাক্তন ও বর্তমান শিক্ষার্থীদের সেতুবন্ধন।" />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://gbhsaa.github.io/site" />
+	<meta property="og:title" content="Donor List - Gulal Budai High School (GBHS) Alumni Association" />
+	<meta property="og:description"
+		content="গুলাল বুদাই উচ্চ বিদ্যালয় অ্যালামনাই এসোসিয়েশন - স্মৃতির বন্ধনে, সম্মিলনের প্রত্যয়ে প্রাক্তন ও বর্তমান শিক্ষার্থীদের সেতুবন্ধন।" />
+	<meta property="og:image" content="https://gbhsaa.github.io/site/images/og-gbhs.jpg" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/featherlight.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="js/featherlight.min.js"></script>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header id="top">
+	</header>
+    <section class="team-section">
+        <div class="wrapper">
+            <h4 class="align-center">দাতা সদস্যদের তালিকা</h4>
+            <p class="subtitle">যাদের অর্থায়ন আমাদের আয়োজনকে সাফল্যমণ্ডিত করে তোলে</p>
+			<ul class="team-list donor-list" id="committeeList"></ul>
+        </div>
+    </section>
+    <footer></footer>
+
+    <script type="module">
+        import { donorList } from './config/donors.js';
+    
+        const fallbackImage = './images/default.png';
+    
+        const committeeContainer = document.getElementById('committeeList');
+        committeeContainer.innerHTML = '';
+    
+        for (const member of donorList) {
+            const li = document.createElement('li');
+            li.innerHTML = `<div class="image-container">
+                <img src="${member.image || fallbackImage}" alt="${member.name}" />
+            </div>
+            <h5>${member.name}</h5>
+            ${member.batch ? `<p>ব্যাচ: ${member.batch}</p>` : ''}
+            ${member.description ? `<p class="donor-desc">${member.description}</p>` : ''}
+            `;
+            committeeContainer.appendChild(li);
+        }
+    
+        const clearDiv2 = document.createElement('div');
+        clearDiv2.className = 'clear';
+        committeeContainer.appendChild(clearDiv2);
+    </script>
+
+    <script type="module" src="js/common.js"></script>
+</body>
+</html>
