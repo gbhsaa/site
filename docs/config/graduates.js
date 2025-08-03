@@ -33,19 +33,13 @@ export const graduateStudentsList = [
         "name": "Md. Rakibul Islam",
         "batch": "2011",
         "image": "./images/committee/rakib.png",
-        "description": "ECE, Hajee Mohammad Danesh Science and Technology University, Dinajpur"
+        "description": "Electronics & Communication Engineering, Hajee Mohammad Danesh Science and Technology University, Dinajpur"
     },
     {
         "name": "Oliul Islam Biplob",
         "batch": "2003",
         "image": "./images/committee/biplob.png",
         "description": "Mymensingh Medical College, Mymensingh"
-    },
-    {
-        "name": "Mahmudul Hasan Shohag",
-        "batch": "",
-        "image": "",
-        "description": "Dhaka University of Engineering & Technology, Gazipur"
     },
     {
         "name": "Mahmudul Hasan Shohag",
@@ -88,5 +82,17 @@ export const graduateStudentsList = [
         "batch": "2005",
         "image": "",
         "description": "Dhaka University of Engineering & Technology, Gazipur"
+    },
+    {
+        "name": "Md. Biplob Mia",
+        "batch": "2016",
+        "image": "",
+        "description": "Textile Engineering, Dhaka University of Engineering & Technology, Gazipur"
+    },
+    {
+        "name": "Md. Faizul Islam",
+        "batch": "2015",
+        "image": "",
+        "description": "CSE, Dhaka University of Engineering & Technology, Gazipur"
     },
 ]
