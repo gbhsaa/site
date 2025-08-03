@@ -19,7 +19,7 @@ export const donorList =
         "description": "এসটিওপি পরামর্শক — বিশ্ব স্বাস্থ্য সংস্থা (WHO) — আঞ্চলিক কার্যালয়, জাতিসংঘ সিটি, কোপেনহেগেন, ডেনমার্ক"
     },
     {
-        "name": "অ্যাড. মশিয়ার রহমান",
+        "name": "মশিয়ার রহমান",
         "batch": "",
         "image": "./images/committee/mosiar.png",
         "description": "আয়কর অ্যাডভাইজার, রংপুর"

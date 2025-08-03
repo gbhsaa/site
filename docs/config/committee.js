@@ -6,7 +6,7 @@ export const associationCommittee =
         "image": "./images/committee/shamim.png"
     },
     {
-        "name": "অ্যাড. মশিয়ার রহমান",
+        "name": "মশিয়ার রহমান",
         "batch": "",
         "image": "./images/committee/mosiar.png"
     },
