@@ -44,7 +44,7 @@ export const graduateStudentsList = [
     {
         "name": "Mahmudul Hasan Shohag",
         "batch": "",
-        "image": "",
+        "image": "./images/committee/mahmudul.png",
         "description": "Dhaka University of Engineering & Technology, Gazipur"
     },
     {
