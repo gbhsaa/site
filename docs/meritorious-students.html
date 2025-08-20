@@ -45,6 +45,7 @@
                             <th>Photo</th>
                             <th>Name</th>
                             <th>Batch</th>
+                            <th>Phone</th>
                             <th>Subject & Institute</th>
                         </tr>
                     </thead>
@@ -71,14 +72,13 @@
                 <td><img class="table-image" src="${student.image || fallbackImage}" alt="${student.name}" height="50" width="50" /></td>
                 <td>${student.name}</td>
                 <td>${student.batch}</td>
+                <td>${student.phone}</td>
                 <td>${student.description}</td>
             `;
         }
 
         $(document).ready(function () {
-            $('#studentTable').DataTable({
-                "order": [[1, "asc"]]
-            });
+            $('#studentTable').DataTable();
         });
     </script>
     <script type="module" src="js/common.js"></script>

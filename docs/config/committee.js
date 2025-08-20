@@ -11,7 +11,7 @@ export const associationCommittee =
         "image": "./images/committee/mosiar.png"
     },
     {
-        "name": "ডাঃ মোঃ অলিউল ইসলাম বিপ্লব",
+        "name": "ডাঃ মোঃ ওলিউল ইসলাম বিপ্লব",
         "batch": "২০০৩",
         "image": "./images/committee/biplob.png"
     },
